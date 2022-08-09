@@ -1,2 +1,2 @@
 # data_scraping_visulization
-Some prjoects for making hands dirty.
+Some prjoects for making hands dirty. :running:,:muscle:

@@ -9,7 +9,7 @@ https://www.geeksforgeeks.org/how-to-extract-youtube-data-in-python/
 https://www.youtube.com/watch?v=D56_Cx36oGY
 '''
 
-api_key = 'AIzaSyAjQcN_0RwM0n0afc5rJHwmtBlQJqN4h3s'
+api_key = API_KEY
 api_service_name = 'youtube'
 api_version = 'v3'
 channel_ids = ['UCFtJHlYwZyb2ipqOGeNUs7Q']

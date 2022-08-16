@@ -1,6 +1,7 @@
 import pandas as pd
 from googleapiclient.discovery import build
-from IPython.display import JSON
+import os
+from dotenv import load_dotenv
 
 '''
 REF:
@@ -9,7 +10,8 @@ https://www.geeksforgeeks.org/how-to-extract-youtube-data-in-python/
 https://www.youtube.com/watch?v=D56_Cx36oGY
 '''
 
-api_key = API_KEY
+load_dotenv()
+api_key = os.getenv("API_KEY")
 api_service_name = 'youtube'
 api_version = 'v3'
 channel_ids = ['UCFtJHlYwZyb2ipqOGeNUs7Q']
